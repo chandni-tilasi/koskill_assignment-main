@@ -128,7 +128,7 @@ function IndexPage() {
         </div>
       ) : (
         <div>
-          {customers && customers.length > 0 ? (
+          {customers  ? (
             <table className="customers-table">
               <thead>
                 <tr>
